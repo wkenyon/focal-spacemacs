@@ -1,6 +1,5 @@
 ;; -*- mode: emacs-lisp; eval: (progn (pp-buffer) (indent-buffer)) -*-
-((def-persp nil
-   ((def-buffer "CHANGELOG.develop" "/scratch/willmacs/.emacs.d/CHANGELOG.develop" org-mode))
+((def-persp nil nil
    (def-wconf
      (((min-height . 4)
        (min-width . 10)
@@ -15,13 +14,13 @@
        (min-pixel-height-safe . 18)
        (min-pixel-width-safe . 18))
       leaf
-      (pixel-width . 1402)
-      (pixel-height . 900)
-      (total-width . 156)
-      (total-height . 50)
+      (pixel-width . 3368)
+      (pixel-height . 1358)
+      (total-width . 374)
+      (total-height . 75)
       (normal-height . 1.0)
       (normal-width . 1.0)
-      (buffer "*Error*"
+      (buffer "*spacemacs*"
               (selected . t)
               (hscroll . 0)
               (fringes 8 8 nil nil)
@@ -29,11 +28,11 @@
               (scroll-bars nil 0 t nil 0 t nil)
               (vscroll . 0)
               (dedicated)
-              (point . 503)
-              (start . 1))
+              (point . 4129)
+              (start . 549))
       (prev-buffers
-       ("CHANGELOG.develop" 1 248)
-       ("*Error*" 1 191))))
+       ("*spacemacs*" 1 1)
+       ("*scratch*" 1 1))))
    (def-params
      ((gui-eyebrowse-last-slot . 1)
       (gui-eyebrowse-current-slot . 1)
@@ -52,13 +51,13 @@
           (min-pixel-height-safe . 18)
           (min-pixel-width-safe . 18))
          leaf
-         (pixel-width . 1402)
-         (pixel-height . 900)
-         (total-width . 156)
-         (total-height . 50)
+         (pixel-width . 3368)
+         (pixel-height . 1358)
+         (total-width . 374)
+         (total-height . 75)
          (normal-height . 1.0)
          (normal-width . 1.0)
-         (buffer "*Error*"
+         (buffer "*spacemacs*"
                  (selected . t)
                  (hscroll . 0)
                  (fringes 8 8 nil nil)
@@ -66,10 +65,10 @@
                  (scroll-bars nil 0 t nil 0 t nil)
                  (vscroll . 0)
                  (dedicated)
-                 (point . 503)
-                 (start . 1))
+                 (point . 4129)
+                 (start . 549))
          (prev-buffers
-          ("CHANGELOG.develop" 1 248)
-          ("*Error*" 1 191)))
+          ("*spacemacs*" 1 1)
+          ("*scratch*" 1 1)))
         ""))))
    t nil nil))

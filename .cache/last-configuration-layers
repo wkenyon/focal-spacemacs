@@ -1,0 +1,2 @@
+
+(setq dotspacemacs-configuration-layers '(javascript sql csv yaml (python :variables evilmi-always-simple-jump t) auto-completion better-defaults emacs-lisp git helm lsp (c-c++ :variables c-c++-backend 'lsp-clangd) markdown multiple-cursors (shell :variables shell-default-shell 'shell comint-prompt-read-only nil comint-move-point-for-output nil shell-default-position 'bottom) spell-checking syntax-checking version-control treemacs))
